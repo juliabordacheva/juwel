@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adaptive font size</title>
+
+    <style>
+        p{
+            text-align: center;
+        }
+        .adaptive{
+            font-size: 20px;
+        }
+
+        
+        @media all and (min-width: 992px) {
+            .adaptive{
+                font-size: calc(100vw / 50); /*//100% ширины экрана деленное на произвольное число*/
+            }
+        }
+        @media all and (min-width: 1400px) {
+            .adaptive{
+                font-size: calc(100vw * 0.03);/* //100% ширины экрана умноженное на произвольное число*/
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <p class="adaptive">Adaptive font size</p>
+    <p>Static font size</p>
+
+</body>
+</html>

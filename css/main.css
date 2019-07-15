@@ -1,0 +1,573 @@
+/*Шрифты*/
+
+
+@font-face {
+    font-family: "Raleway"; /* Гарнитура шрифта */
+    src: url(fonts/Raleway-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+    font-family: "Dancing Script"; /* Гарнитура шрифта */
+    src: url(fonts/DancingScript-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+font-family: "Merriweather"; /* Гарнитура шрифта */
+src: url(fonts/Merriweather-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+/*================================================================*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+html {
+	font-size: 100%;
+}
+body {
+	width: 100vw;
+}
+
+img[alt="logo_small"] {
+	display: none;
+}
+/*img {
+             max-width: 100%;
+			 height: auto;
+			 display: block;
+}*/
+/*Верхнее меню*/
+.top_nav {
+	width: 100%;
+	margin-bottom: 3.125rem;
+	position: relative;
+}
+.top_nav li {
+	list-style-type: none;
+	display: inline;
+}
+
+.top_nav-adapt {
+	display: none;
+}
+.top_nav-menu {
+	display: flex;
+}
+.top_nav-menu li {
+	font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+	line-height: 16px;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+    padding-top: 0.9rem;
+    padding-bottom: 2.3rem;
+	color: #000000;
+    
+    
+}
+.top_nav-menu a:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: #000000;
+	
+}
+
+.top_nav-menu li {
+	
+border-bottom: 2px solid #FFFFFF;	
+
+}
+
+.top_nav-menu li:hover {
+	border-bottom: 2px solid #FFAF9A;
+	transition: all 0.8s;
+ }
+
+
+
+.top_nav-socials li {
+	padding-left: 1.2rem;
+}
+
+/*Слайденр на главной странице*/
+
+.slider {
+	background: url(../img/newbornbaby.jpg) no-repeat;
+	background-size: cover;
+	height: 71rem;
+	/*padding-bottom: 5vw;*/
+}
+
+.slider_btn {
+	list-style-type: none; 
+}
+
+
+.slider_btn li {
+	padding: 3.6rem;
+	text-align: center;
+
+
+}
+
+.small_btn {
+	display: inline-block;
+	text-align: center;
+	background-color: #FFFFFF;
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 0.8rem;
+
+}
+
+.slider_btn {
+	
+}
+
+.small_btn:hover {
+	cursor: pointer;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 1rem;
+	
+}
+
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 5rem;
+	line-height: 5.6rem;
+   
+    margin-top: 8.9rem;
+    margin-bottom: 2.375rem;
+	
+}
+
+.slider p {
+	
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.125rem;
+    line-height: 1.875rem;
+	
+}
+
+ .button {
+ 	display: block;
+ 	width: 14.375rem;
+	height: 3.75rem;
+	margin-top: 1.93rem;
+	margin-bottom: 13.70rem;
+    background: #B6F2F2;
+	border-radius: 9.37rem;
+	border: 1px solid #B6F2F2;
+}
+
+.button a{
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 500;
+	text-decoration: none;
+	color: #000000;
+	font-size: 0.875rem;
+	/*line-height: 0.875rem;*/
+	
+	
+
+}
+/*======================================================================================*/
+/*"Обо мне" на главной странице*/
+
+.about_me {
+	/*position: relative;*/
+	display: block;
+	height: 61.625rem;
+}
+
+.about_me-content {
+	position: relative;
+
+}
+h2 {
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 5rem;
+	line-height: 5rem;
+    color: #FFAF9A;
+
+}
+
+h3 {
+	font-family: 'Dancing Script', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+/* identical to box height */
+
+color: #000000;
+}
+.about_me h2 {
+   position: absolute;
+   left: 31.31rem;
+   top: 9rem;
+ }
+
+
+ .about_me  h3 {
+ 	position: absolute;
+ 	left: 31.43rem;
+    top: 42rem;
+ }
+.about_me p {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.125rem;
+	line-height: 1.875rem;
+    position: absolute;
+    left: 43.125rem;
+    top: 19.84rem;
+
+}
+
+.about_me-img {
+    display: block;
+	background-color: #FFE6A5;
+    width: 20.625rem;
+    height: auto;
+    position: absolute;
+    left: 19.125rem;
+	top: 17.04rem;
+}
+
+.about_me-img img {
+	 max-width: 100%;
+	 height: auto;
+	 display: block;
+}
+
+
+
+.about_me button {
+	position: absolute;
+	left: 51.37rem;
+    top: 45rem;
+    width: 12.37rem;
+    height: 3.75rem;
+}
+/*===============================================================================*/
+
+/*Девочка в коричневом платьишке*/
+
+.baby_girl {
+	background: url(../img/baby_girl.jpg) no-repeat fixed;
+	background-size: cover;
+	height: 65rem;
+}
+
+.baby_girl-content p {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.125rem;
+	line-height: 1.875rem;
+    color: #FFFFFF;
+    margin-top: 2.6rem;
+    margin-bottom: 14.5rem;
+}
+
+.kavichka {
+	display: block;
+	width: 5.25rem;
+    height: auto;
+    margin-top: 18.25rem;
+}
+
+.kavichka img {
+    max-width: 100%;
+	height: auto;
+	display: block;
+}
+/*======================================================
+*//*Категории фотогалереи*/
+
+
+.categories {
+	margin-top: 10.25rem;
+}
+
+.pregnat {
+	background: url('../img/pregnat_women.jpg') no-repeat;
+	height: 24rem;
+	width: 18.75rem;
+	background-size: contain;
+	background-position-y: bottom;
+
+}
+
+.newborn {
+   background: url('../img/baby_white.jpg') no-repeat;
+   height: 24rem;
+   width: 18.75rem;
+   background-size: contain;
+   background-position-y: bottom;
+}
+
+.parents {
+   background: url('../img/small_feets.jpg') no-repeat;
+   height: 24rem;
+   width: 18.75rem;
+   background-size: contain;
+   background-position-y: bottom;
+}
+
+.pregnat p {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.375rem;
+	line-height: 6.25rem;
+	
+}
+
+.pregnat p:hover {
+	background:  #B6F2F2;
+	display: inline-block;
+	width: 100%;
+	height: 6.875rem;
+
+}
+
+.newborn p {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.375rem;
+	line-height: 6.25rem;
+	
+}
+
+.newborn p:hover {
+	background:  #B6F2F2;
+	display: inline-block;
+	width: 100%;
+	height: 6.875rem;
+}
+.parents p {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.375rem;
+	line-height: 6.25rem;
+	
+}
+
+.parents p:hover {
+	background:  #B6F2F2;
+	display: inline-block;
+	width: 100%;
+	height: 6.875rem;
+}
+
+.btn_cat {
+	/*margin-left: 1.5rem;*/
+}
+
+.btn_cat .button {
+   margin-bottom: 7rem;
+}
+
+/*===========Обо мне==========*/
+
+.review h2 {
+	margin-bottom: 2rem;
+	font-size: 5rem;
+	line-height: 6.25rem;
+}
+
+.review_content h4 {
+	font-size: 2.18rem;
+	line-height: 1.875rem;
+}
+
+.review_content p {
+	font-size: 1.125rem;
+	line-height: 1.875rem;
+}
+
+/*=============Контакты======================*/
+
+.contact	{
+	margin-top: 7.375rem;
+	/*margin-bottom: 8.5rem;*/
+}
+.contact h2 {
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 5rem;
+	line-height: 5rem;
+	margin-bottom: 3.125rem;
+}
+
+.contact_img {
+	margin-bottom: 4rem;
+}
+
+.contact_img_container {
+	display: block;
+	height: 18.375rem;
+	width: 18.75rem;
+}
+
+.contact_txt {
+	margin-left: 4.375rem;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.125rem;
+	line-height: 1.875rem;
+}
+
+/*==============FOOTER======================*/
+
+.footer {
+	display: block;
+	background-color: #B6F2F2;
+}
+
+.footer ul {
+	list-style-type: none;
+	
+}
+
+.footer_txt h6 {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.125rem;
+	line-height: 1.3124rem;
+
+	color: #000000;
+}
+
+.footer_txt li {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.875rem;
+	line-height: 1rem;
+    padding-top: 1.5rem;
+	color: #000000;
+}
+
+.footer_txt {
+	padding-top: 3.75rem;
+	
+}
+
+.copyright {
+	padding-top: 6.875rem;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1.8rem;
+}
+
+/*==============================страница 2 "Обо мне"=========================*/
+
+.about_1-content {
+	position: relative;
+}
+
+.about_1-foto {
+	display: block;
+	width: 51.25rem;
+	height: auto;
+}
+
+.about_1-txt {
+	position: absolute;
+    left: 56.56rem;
+    top: 7.75rem;
+    width: 17.5rem;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.125rem;
+	line-height: 1.81rem;	
+}
+.about_1-h2_2 {
+	display: none;
+}
+.about_1-h2 {
+	left: 50.6rem;
+	top: 1rem;
+    position: absolute;
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	line-height: 80px;
+
+
+	color: #FFAF9A;
+}
+.about_2 {
+	margin-top: 9.8rem;
+	margin-bottom: 3.18rem;
+}
+
+.about_2-txt {
+	
+
+    width: 17.5rem;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.125rem;
+	line-height: 1.81rem;
+}
+
+.about_2-img {
+	display: inline-block;
+	width: 30.93rem;
+	height: auto;
+}
+
+.about_3-txt {
+	
+
+   /* width: 17.5rem;*/
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.125rem;
+	line-height: 1.81rem;
+}
+
+.about_3-img {
+	display: inline-block;
+	width: 30.93rem;
+	height: auto;
+}
+
+.about_5-certificate {
+	margin-bottom: 9.375rem;
+}
+
